@@ -62,4 +62,11 @@ DELETE FROM topic WHERE id=4;
 
      => JOIN을 이용해서 결합해서 읽어오게끔 할 수 있다.
 
-## 테이블 분리하기
+## JOIN
+
+- 결합고리 author_id 와 id를 조인트
+
+```
+SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.id;
+```
+
