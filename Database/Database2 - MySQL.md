@@ -70,3 +70,19 @@ DELETE FROM topic WHERE id=4;
 SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.id;
 ```
 
+
+
+## 인터넷과 데이터베이스
+
+- 인터넷
+  - client 와 server
+- 데이터베이스
+  - database client 
+    - client를 통해서 database server에 접속  -> workbench , mysql monitor
+  - database server 
+    - server에 데이터 저장
+
+## Mysql Client
+
+
+

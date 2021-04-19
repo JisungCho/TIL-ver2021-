@@ -26,9 +26,9 @@ public class MySQLPageRequest {
 	
 	/*
 	 * limit , offset 2개 변수는 page, size 정보로,  자동으로 계산된 값이 들어감
-	 * @JsonIgnore를 뭍이면 데이터를 주고 받을 때 해당데이터는 ignore되어서 직렬화 되지 않음
+	 * @JsonIgnore를 뭍이면 데이터를 주고 받을 때 해당데이터는 ignore되어서 직렬화(자바객체->json) 되지 않음
 	 * @ApiModelProperty : 모델의 요소에 설명을 추가합니다.
-	 * 										hidden true시 샘플 모델에서 자동으로 제외
+	 * 					   hidden true시 샘플 모델에서 자동으로 제외
 	 */
 	
 	@JsonIgnore
