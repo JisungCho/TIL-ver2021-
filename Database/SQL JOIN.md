@@ -14,10 +14,13 @@
 
 ## LEFT OUTER JOIN
 
-
-
-
+- 왼쪽에는 존재하는 것을 가져옴
 
 ## INNER JOIN
 
 - 양쪽에 모두 데이터가 존재하면 가져옴
+
+## FULL OUTER JOIN
+
+- 합집합
+
